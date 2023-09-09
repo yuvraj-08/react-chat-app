@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .link-tag {
+    text-decoration: none;
+  }
+  /* media queries */
+  .right-sidebar {
+    padding: 0;
+    background-color: #db188a3a;
+    background-image: linear-gradient(45deg,#43314fc5 ,#524466c2),
+     url("https://wallpapers.com/images/hd/emoticons-and-symbols-whatsapp-chat-81z2ulpylfyqalb3.jpg");
+  }
+  .left-sidebar {
+    background-color: #706993;
+  }

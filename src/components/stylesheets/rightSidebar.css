@@ -1,0 +1,187 @@
+.no-chat-background {
+  text-align: center;
+  color: #f5f5f5;
+}
+.no-chat-background h2{
+   margin-top: 150px;
+    font-size: 50px;
+  }
+  .no-chat-background img{
+    width: 200px;
+    margin: 30px;
+  }
+  .message-box {
+    height: 95vh;
+    overflow: auto;
+   background-image: url("https://mcdn.wallpapersafari.com/medium/12/90/TyLtep.jpg");
+  }
+  /* header */
+  .message-box-header {
+    background-color: #43314F;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 3;
+  }
+  
+  .messages-section {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px 40px;
+    color: #f5f5f5;
+  }
+  .message-bubble {
+    display: flex;
+    align-items: center;
+  }
+  .mbr {
+    flex-direction: row-reverse;
+  }
+  /* no message found */
+  
+  .no-message-alert {
+    position: absolute;
+    bottom: 50px;
+    left: 60%;
+    font-size: 18px;
+    color: #fff;
+    background-color: #5D6383;
+    padding: 1.2rem;
+    border-radius: 20px;
+    
+  }
+  @media screen and (max-width: 622px) {
+    .no-message-alert {
+      font-size: 14px;
+    }
+  }
+  /* chat bubbles css */
+  .left-bubble {
+    width: 220px;
+    height: auto;
+    display: block;
+    background: #2b2b2a;
+    border-radius: 4px;
+    position: relative;
+    margin: 15px 0;
+    padding: 8px;
+  }
+  @media screen and (max-width: 792px) {
+    .left-bubble {
+      width: 200px;
+      padding: 6px;
+      margin: 10px 0;
+    }
+    .name {
+      font-size: 12px;
+    }
+    .message {
+      font-size: 13px;
+    }
+  }
+  @media screen and (max-width: 622px) {
+    .message {
+      font-size: 12px;
+    }
+  }
+  .txt {
+    padding: 8px 55px 8px 14px;
+  }
+  .message {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+  }
+  .name {
+    font-weight: 600;
+    font-size: 13px;
+    margin: 0 0 4px;
+    color: #CCD8E0;
+  }
+  .right-name{
+    color: #CCD8E0;
+  }
+  .message-timestamp {
+    font-size: 11px;
+    position: absolute;
+    bottom: 8px;
+    right: 10px;
+    text-transform: uppercase;
+    color: rgb(175, 174, 174);
+  }
+  .bubble-arrow {
+    position: absolute;
+    width: 0;
+    bottom: 42px;
+    left: -16px;
+    height: 0;
+  }
+  .bubble-arrow:after {
+    content: "";
+    position: absolute;
+    border: 0 solid transparent;
+    border-top: 9px solid #f5f5f5;
+    border-radius: 0 20px 0;
+    width: 15px;
+    height: 30px;
+    transform: rotate(145deg);
+  }
+  /* right bubble */
+  .right-bubble {
+    width: 220px;
+    height: auto;
+    display: block;
+    background-color: #5D6383;
+    border-radius: 4px;
+    position: relative;
+    margin: 10px 0;
+    align-self: flex-end;
+    padding: 8px;
+  }
+  @media screen and (max-width: 792px) {
+    .right-bubble {
+      width: 200px;
+      padding: 6px;
+      margin: 10px 0;
+    }
+  }
+  .bubble-arrow-alt {
+    right: -2px;
+    bottom: 40px;
+    left: auto;
+  }
+  .bubble-arrow-alt:after {
+    transform: rotate(45deg) scaleY(-1);
+  }
+  /* message-input */
+  .message-input {
+    background-color: #43314F;
+     position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+  }
+  
+  .message-input input {
+    outline: none;
+    padding: 6px;
+    width: 100%;
+  }
+  
+  /* send button  css */
+  .send-button {
+    background-color: #5D6383;
+    width: 30%;
+    color: white;
+    padding: 6px;
+  }
+  @media screen and (max-width: 792px) {
+    .send-button {
+      font-size: 12px;
+      width: 40%;
+    }
+  }
