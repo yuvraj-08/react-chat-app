@@ -1,6 +1,6 @@
 # React Chat Application
 
-![Demo GIF](https://i.ibb.co/5c3xHGZ/UI.png) <!-- Add a demo GIF or screenshot of your app -->
+![Demo GIF](https://i.ibb.co/NpNDN5d/UI1.png)
 
 ## Overview
 
