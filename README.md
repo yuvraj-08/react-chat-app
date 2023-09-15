@@ -3,8 +3,8 @@
 ![Demo GIF](https://i.ibb.co/NpNDN5d/UI1.png)
 
 ## Overview
-
-This React chat application is a frontend project with several key features that facilitate seamless communication with friends and colleagues. It includes a left sidebar for easy access to conversations, search functionality, and real-time messaging. This README provides an overview of the project and explains how to set it up.
+- [Live Demo Link](https://react-chat-app-yuvraj.netlify.app/#/)
+- This React chat application is a frontend project with several key features that facilitate seamless communication with friends and colleagues. It includes a left sidebar for easy access to conversations, search functionality, and real-time messaging. This README provides an overview of the project and explains how to set it up.
 
 ## Features
 
